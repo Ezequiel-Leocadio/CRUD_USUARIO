@@ -1,0 +1,126 @@
+div.container{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 1.25rem;
+  font-weight: 400;
+  border: 0;
+  box-shadow: 0 5px 11px 0 #273c75, 0 4px 15px 0 #273c75;
+
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background: #2c3e50;
+  background-clip: border-box;
+
+  border-radius: 0.25rem;
+}
+
+div.coluna {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  float: left;
+}
+div.center{
+  width: 100%;
+  text-align: center;
+}
+
+div.responsive-scroll-x {
+  overflow-x: scroll;
+}
+
+table,
+th,
+td {
+  /* border: 1px solid black; */
+  padding: 0 5px;
+  color: #fff;
+}
+table {
+  width: 99%;
+  margin: 10px 5px;
+  border-collapse: collapse;
+  /* border: 1px solid black; */
+}
+
+tr:hover {
+  background: #40739e59;
+}
+table.pages {
+  border-collapse: collapse;
+  /* border: 1px solid black; */
+  width: 100%;
+}
+
+table.next {
+  margin-top: 115px;
+}
+thead {
+  border-bottom: 2px solid #92929263;
+}
+
+tr {
+  /* border-bottom: 1px solid #92929263; */
+}
+th {
+  height: 15px;
+  font-size: 16px;
+  text-align: center;
+  /* background-color: #646965; */
+  color: #dcdde1;
+}
+
+td {
+  height: 15px;
+  font-size: 15px;
+  text-align: center;
+}
+
+th,
+td {
+  padding: 5px;
+  text-align: center;
+}
+tr:nth-child(even) {
+  background-color: #1b2144ad;
+}
+tr:nth-child(even):hover {
+  background-color: #40739e59;
+}
+
+div.grupo-btn {
+  display: flex;
+  margin: 0 !important;
+  /* justify-content: space-between; */
+  max-height: 40px;
+  font-size: 10px;
+}
+
+button {
+  margin: 0 3px 0 0;
+  max-width: 150px;
+  /* padding: 5px; */
+}
+
+div.card{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  color: #fff;
+  border-radius: 0.25rem;
+  margin-top: -1.25rem;
+  margin-right: 4%;
+  margin-left: 4%;
+  box-shadow: 0 5px 11px 0 #273c75, 0 4px 15px 0 #273c75;
+  background: linear-gradient(40deg, #45cafc, #303f9f) !important;
+}
+h1 {
+  font-size: 20px;
+  margin: 2px;
+
+}

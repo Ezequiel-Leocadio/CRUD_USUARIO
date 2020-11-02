@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="card">
+    <div class="center">
+      <h1>{{ title }}</h1>
+    </div>
+  </div>
+  <table>
+    <thead>
+      <th>Nome</th>
+      <th>Login</th>
+      <th>Data</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users">
+        <td>{{ user.nome }}</td>
+        <td>{{ user.login }}</td>
+        <td>{{ user.createdAt | localDateTime }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
